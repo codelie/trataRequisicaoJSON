@@ -2,7 +2,7 @@ var pessoa_Json = '{"nome": "Fulano", "idade": "27", "salario": "1983.31"}';
 
 $.ajax({
     type: "POST",
-    url: "https://127.0.0.1/testesPHP/requisicaoJSON/tratarRequisicaoJSON/ws/",
+    url: "https://127.0.0.1/testesPHP/trataRequisicaoJSON/tratarRequisicaoJSON/ws/",
     dataType: "json",
     contentType: "application/json; charset=utf-8",
     cache: false,
